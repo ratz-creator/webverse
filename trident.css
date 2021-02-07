@@ -1,0 +1,358 @@
+* {
+
+	margin: 0px;
+	padding: 0px;
+}
+ .home {
+
+ 	background-image: url(reflect.jpg);
+ 	width: 100%;
+ 	height: 100vh;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+ 	overflow-x: hidden;
+ 	overflow-y: scroll;
+ 	display: table;
+background-attachment: fixed;
+
+ }
+
+ ul {
+overflow: hidden;
+list-style-type: none;
+ 	border-width: 4px;
+ 	border-color: rgb(60,60,60);
+ 	border-radius: 3px;
+ 	background-color: rgba(240,240,240,0.3);
+    display: inline-block;
+width: 100vw;
+height: 40px;
+vertical-align: top;
+ }
+li {
+overflow: hidden;
+	float:right;
+	border-right: 3px;
+}
+
+  li a {
+overflow: hidden;
+text-align: right;
+padding: 8px;
+text-decoration: none;
+margin-right: 40px;
+font-size: 34px;
+font-family: Garamond,"Times new Roman","sans-serif";
+font-style: italic;
+font-variant-caps: small-caps;
+color: rgba(0,0,255,0.6);
+font-weight: bold;
+
+  }
+  li a:hover {
+  background-color:rgba(0,0,255,0.8);
+  color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+h1.head{
+text-align: center;
+	margin-top:200px;
+	margin-left: 200px;
+	font-size: 60px;
+	font-family: papyrus;color: rgba(0,0,86,1);
+	
+	font-variant-caps: small-caps;
+	font-weight: bolder;
+}
+ 
+ .gs {
+background-color: rgba(240,240,240,0.3);
+ 	border-color: rgba(0,0,86,1);
+ 	margin-top: 10px;
+ 	margin-left: 600px;
+ 	padding:20px 35px;
+border-radius: 17px;
+font-size: 25px;
+font-family: Georgia;
+font-style: oblique; 
+color: rgba(0,0,86,1);
+
+ }
+ .gs:hover {
+background-color:rgba(0,0,255,0.8);
+  color: white;
+
+ }
+
+ .container0 {
+
+	height: 100vw;
+	width: 100%;
+	background-image: url(nature2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    overflow-x: hidden;
+	overflow-y: scroll;
+display: table;
+background-attachment: fixed;
+}
+
+p.quote {
+margin-top:400px;
+margin-right: 30px;
+font-size: 120px;
+font-family: lobster;
+font-style: italic;
+font-variant-caps: small-caps;
+color:rgb(255,165,0);
+text-align: center;
+font-weight: bolder;
+vertical-align: middle;
+overflow-x: hidden;
+}
+ p.pop{
+
+ 	margin-top: 350px;
+ 	margin-left: 110px;
+ 	font-family: Georgia;
+ 	font-size: 48px;
+ 	font-weight: bold;
+ 	color:rgb(255,165,0);
+     }
+
+     span {
+
+     	font-size: 24px;
+     	font-weight: bold;
+     	margin-right: 160px;
+float:right;
+     }
+
+     .container1 {
+     	height: 100vw;
+	width: 100%;
+	background-image: url(rajasthan.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    overflow-x: hidden;
+	overflow-y: scroll;
+display: table;
+background-attachment: fixed;
+
+     }
+     h1.raj{
+padding:25px 15px;
+     	margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+text-align: center;
+margin-top: 150px;
+margin right: 40px;
+font-size:78px;
+font-family: papyrus;
+ font-weight:1900;
+ color: #0000ff;
+
+
+     }
+
+     .rajasthan {
+padding:100px 60px;
+     	margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  font-size: 30px;
+font-family: "Lucida Handwriting";
+margin-left: 40px;
+margin-top: 100px;
+
+
+}
+     
+
+     .rajasthan p{
+
+
+font-size: 30px;
+font-family: "Lucida Handwriting";
+
+color: black;
+font-weight: 9000;
+font-style: oblique;
+
+
+     }
+
+     .container2 {
+     	height: 100vw;
+	width: 100%;
+	background-image: url(kerela.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    overflow-x: hidden;
+	overflow-y: scroll;
+display: table;
+background-attachment: fixed;
+
+     }
+
+
+       h1.north{
+padding:25px 15px;
+     	margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+text-align: center;
+margin-top: 150px;
+margin right: 40px;
+font-size:78px;
+font-family: papyrus;
+ font-weight:1900;
+ color: #ffcc41;
+
+
+     }
+     .kerela {
+padding:100px 60px;
+     	margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  font-size: 30px;
+font-family: "Lucida Handwriting";
+margin-left: 40px;
+margin-top: 100px;
+
+}
+     .kerela p{
+
+
+font-size: 30px;
+font-family: "Lucida Handwriting";
+
+color: black;
+font-weight: 2500;
+font-style: oblique;
+}
+
+
+
+     .container3 {
+     	height: 100vw;
+	width: 100%;
+	background-image: url(swift.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    overflow-x: hidden;
+	overflow-y: scroll;
+display: table;
+background-attachment: fixed;
+
+     }
+       h1.aust {
+padding:25px 15px;
+     	margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+text-align: center;
+margin-top: 150px;
+margin right: 40px;
+font-size:78px;
+font-family: papyrus;
+ font-weight:1900;
+ color: #2ebd00;
+
+
+     }
+          .manali {
+padding:100px 60px;
+     	margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  font-size: 30px;
+font-family: "Lucida Handwriting";
+margin-left: 40px;
+margin-top: 100px;
+
+}
+     .manali p{
+
+
+font-size: 30px;
+font-family: "Lucida Handwriting";
+
+color: black;
+font-weight: 2500;
+font-style: oblique;
+
+    }
+
+
+
+     .container4 {
+     	height: 100vw;
+	width: 100%;
+	background-image: url(gangtok.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    overflow-x: hidden;
+	overflow-y: scroll;
+display: table;
+background-attachment: fixed;
+
+     }
+
+            h1.wore {
+padding:25px 15px;
+     	margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+text-align: center;
+margin-top: 150px;
+margin right: 40px;
+font-size:78px;
+font-family: papyrus;
+ font-weight:1900;
+ color: #ff5500;
+
+
+     }
+
+           .gangtok {
+padding:100px 60px;
+     	margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  font-size: 30px;
+font-family: "Lucida Handwriting";
+margin-left: 40px;
+margin-top: 100px;
+
+}
+    .gangtok p{
+
+
+font-size: 30px;
+font-family: "Lucida Handwriting";
+
+color: black;
+font-weight: 2500;
+font-style: oblique;
+}
